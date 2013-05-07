@@ -1,0 +1,9 @@
+The files with probability are prefixed bin11_prob. 
+
+To run type : svm-predict -b 1 bin11_scale.test bin11_prob.train.model bin11.test.prediction
+
+This gives an accuracy of 80%
+
+without probability: svm-predict bin11_scale.test bin11_prob.train.model bin11.test.prediction
+
+This gives an accuracy of 76%
